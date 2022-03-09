@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Head from 'next/head'
 import Image from 'next/image'
 import { Button4 } from '../components/Buttons'
 import StoryCard from '../components/StoryCard'
@@ -6,6 +7,13 @@ import StoryCard from '../components/StoryCard'
 const Features: NextPage = () => {
   return (
     <main>
+      <Head>
+        <title>Photosnap - Stories</title>
+        <meta property="og:title" content="Photosnap - Stories" key="title" />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+
       <div className='relative md:h-[650px] flex flex-col md:justify-center'>
         <span className='md:hidden'>
           <Image width={375} height={317} layout='responsive' src='/assets/stories/mobile/moon-of-appalacia.jpg' alt='featured story' />
@@ -16,7 +24,7 @@ const Features: NextPage = () => {
         <div className='px-7 py-12 md:px-0 md:w-[420px] md:ml-10 lg:ml-28 space-y-6 text-white bg-black md:bg-transparent md:relative'>
           <h4 className='uppercase text-xs'>last month&apos;s featured story</h4>
           <h1>hazy full moon of appalachia</h1>
-          <p className='text-xs'><span className='opacity-60'>March 2nd 2020 </span><span className='font-bold'>by John Appleseed</span></p>
+          <p className='text-sm'><span className='opacity-60'>March 2nd 2020 </span><span className='font-bold'>by John Appleseed</span></p>
           <p className='opacity-60'>The dissected plateau area, while not actually made up of geological mountains, is popularly called &quot;mountains,&quot; especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.</p>
           <Button4 className='' text="read the story" />
         </div>
