@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- [Frontend Mentor: Solution URL]()
-- [Vercel: Live Site URL]()
+- [Frontend Mentor: Solution URL](https://www.frontendmentor.io/solutions/photosnap-website-with-nextjs-and-tailwind-SKccHT_g2)
+- [Vercel: Live Site URL](https://photosnap-psi.vercel.app/)
 
 ## My process
 
