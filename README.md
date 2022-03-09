@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Photosnap Website solution
 
-## Getting Started
+This is a solution to the [Photosnap Website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/photosnap-multipage-website-nMDSrNmNW). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### The challenge
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Users should be able to:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- View the optimal layout for each page depending on their device's screen size
+- See hover states for all interactive elements throughout the site
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Screenshot
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![](./desktop.png)
 
-## Learn More
+### Links
 
-To learn more about Next.js, take a look at the following resources:
+- [Frontend Mentor: Solution URL]()
+- [Vercel: Live Site URL]()
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## My process
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Built with
 
-## Deploy on Vercel
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- Tailwind CSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### What I learned
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+My focus for this project was to learn page routes in Next.js and to reinforce my understanding of building react components with Tailwind CSS styles. There were also limitations with next/images that I had to work around. This project helped me get really deep into the Next.js docs to understand how images are rendered and optimized.
+
+### Continued development
+
+I plan to learn more about `grid-area` and pulling data from a local JSON file, so there are some other projects I'm thinking of completing next. I've been getting really comfortable creating components and putting components together to build a webpage, and I want to build more complex features with a lot of moving parts (Maybe with React Redux).
+
+## Author
+
+Ian Wu
+
+- Frontend Mentor - [@iannnop](https://www.frontendmentor.io/profile/iannnop)
+- LinkedIn - [@iannnop](https://www.linkedin.com/in/iannnop/)
+- Instagram - [@iannnop_frontend](https://www.instagram.com/iannnop_frontend/)
+- Twitter - [@iannnop](https://www.twitter.com/iannnop)
