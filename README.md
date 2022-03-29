@@ -42,5 +42,5 @@ Ian Wu
 
 - Frontend Mentor - [@iannnop](https://www.frontendmentor.io/profile/iannnop)
 - LinkedIn - [@iannnop](https://www.linkedin.com/in/iannnop/)
-- Instagram - [@iannnop_frontend](https://www.instagram.com/iannnop_frontend/)
+- Instagram - [@ian.wuu](https://www.instagram.com/ian.wuu/)
 - Twitter - [@iannnop](https://www.twitter.com/iannnop)
